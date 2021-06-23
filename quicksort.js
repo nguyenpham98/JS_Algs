@@ -17,7 +17,7 @@ const partition = (arr, low, high) => {
     return curr
 }
 
-const quicksort = (arr) => {
+const quickSort = (arr) => {
     let stack = []
 
     let start = 0
@@ -38,5 +38,5 @@ const quicksort = (arr) => {
 }
 
 let arr = [3,6,1,7,8,9,5]
-quicksort(arr)
+quickSort(arr)
 console.log(arr)
